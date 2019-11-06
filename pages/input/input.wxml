@@ -1,0 +1,13 @@
+<!--pages/input/input.wxml-->
+<input/>
+<input value='哈哈哈'></input>
+<!--弹出键盘类型-->
+<input type='text'></input>
+<!--暗文 -->
+<input password/>
+<!--占位文字-->
+<input placeholder='请输入文字'/>
+<!-- input绑定事件-->
+<input bindinput='handleinput'
+       bindfocus='handlefocus'
+       bindblur='handleblur'/>

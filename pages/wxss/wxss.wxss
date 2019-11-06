@@ -1,0 +1,25 @@
+/* pages/wxss/wxss.wxss */
+/*导入wxss样式*/
+@import './style/box.wxss';
+@import './style/contant.wxss';
+@import './style/btn.wxss';
+/*.box{
+  color: blue;
+  font-size: 32px;
+}
+.box1{
+  width: 100px;
+  height: 100px;
+  background:orange;
+}
+.box2{
+  width: 200rpx;
+  height: 200rpx;
+  background: gray;
+}
+.contant1{
+  font-size: 32px;
+}
+.contant2{
+  font-size: 64rpx;
+}*/

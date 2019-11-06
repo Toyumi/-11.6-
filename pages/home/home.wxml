@@ -1,0 +1,9 @@
+<!--pages/home/home.wxml-->
+<button bindtap='handleChooseAlbum'>选择照片</button>
+<image src='{{imagepath}}'/>
+<view>-----------------------</view>
+<!--监听图片加载 bindload-->
+<image wx:for="{{10}}"
+      src='http://i0.hdslb.com/bfs/face/bf2e8c9ea985ae0d56c608001075398cadf10c77.jpg'
+      bindload='hanleimageload'
+      lazy-load='{{true}}'/>

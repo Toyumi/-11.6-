@@ -1,0 +1,18 @@
+<!--pages/wxss/wxss.wxml-->
+<!--设置样式的三种方式-->
+<!--1.1行内（内联）样式-->
+<text style='color:red ; font-size:32px;background:blue;'>哈哈哈</text>
+<!--1.2页内样式-->
+<view class='box'>呵呵呵</view>
+<!--1.3全局样式-->
+<view class='container'>嘿嘿嘿</view>
+<view>行内优先级高于页面高于全局</view>
+<!--wxss中的单位 ： rpx -->
+<!--前端中也需要进行配置尺寸的适配 -->
+<!-- 以iphione 6 做标准 1px=2rpx -->
+<view class='box1'></view>
+<view class='box2'></view>
+<view class='contant1'>哈哈哈</view>
+<view class='contant2'>呵呵呵</view>
+<button class='btn'>按钮</button>
+<button class='btn'>按钮</button>
